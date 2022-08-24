@@ -1,0 +1,17 @@
+
+
+#bigdiv {
+    opacity: 0.9
+}
+
+img{
+    opacity: 0.95;
+    brightness: 100%;
+}
+
+#background-grain{
+    position: absolute;
+    background-image: url('https://thumbs.dreamstime.com/b/white-noise-background-effect-sound-effect-grain-distress-overlay-texture-your-design-grainy-gradient-background-145456887.jpg');
+    width: 125px;
+    height: 125px;
+}

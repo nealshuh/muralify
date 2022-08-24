@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--    <link rel="stylesheet" href=" {{url_for('static', filename='css/filters.css')}} ">-->
+    <script type="text/javascript" src=" {{url_for('static', filename='node_modules/html2canvas/dist/html2canvas.js')}} "></script>
+    <script type="text/javascript" src=" {{url_for('static', filename='js/collage_func.js')}} "></script>
+    <script type="text/javascript">const image_array = {{image_array | tojson}};</script>
+    <script type="text/javascript" src=" {{url_for('static', filename='js/collage_exec.js')}} "></script>
+    <script type="text/javascript" src=" {{url_for('static', filename='js/div2image.js')}} "></script>
+
+</body>
+</html>
