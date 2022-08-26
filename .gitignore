@@ -1,0 +1,7 @@
+node_modules
+static/node_modules
+static/package.json
+static/package-lock.json
+credentials.py
+venv
+.cache
